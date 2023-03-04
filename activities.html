@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+  <title>Bucket List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2113.6">
+  <style type="text/css">
+  </style>
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+            <div class="nav-links" id="navlinks">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="activities.html">ACTIVITIES</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Activities</h1>
+</section>
+ <!--------activies------->   
+ 
+<section class="activities">
+    <h1>Upcoming Activites</h1>
+    <p>Join Us!!!</p>
+    
+    <div class="row">
+        <div class="activities-col">
+            <img src="Images/domino.webp">
+            <h3>Domino Chain Challenge</h3>
+            <p>Create a domino chain all the way from the staircase to the main entrance!</p>
+        </div>
+        <div class="activities-col">
+            <img src="Images/kpop.png">
+            <h3>KPOP Random Dance</h3>
+            <p>Blackpink, BTS, NewJeans, Seventeen!!</p>
+        </div>
+        <div class="activities-col">
+            <img src="Images/papertoss.webp">
+            <h3>End of Year Paper Toss</h3>
+            <p>Throw all your notes, tests, assignments into the air!</p>
+        </div>
+    </div>
+</section>
+    <section class ="activities">
+        <h1>Previous Activites</h1>
+        <p>We are a new club lol</p>
+       
+    </section>
+    
+<!--------JavaScript for Toggle Menu------->
+<script>
+    
+    var navlinks = document.getElementById("navlinks");
+    
+    function showMenu(){
+        navlinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+    
+    </script>
+    
+<!--------Footer------->
+    
+<section class="footer">
+    <h4>Join Us</h4>
+    <p>Meeting: Wednesdays<br>Room: 117</p>
+    <div class="icons">
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-envelope-o"></i>
+    </div>
+</section>
+    
+</body>
+</html>
